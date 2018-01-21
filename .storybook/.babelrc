@@ -1,0 +1,5 @@
+{
+  "ignore": ["node_modules/**"],
+  "presets": ["env", "react", "flow", "stage-0"],
+  "plugins": ["transform-class-properties", "flow-react-proptypes"]
+}

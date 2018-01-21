@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:flowtype/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "flowtype",
+    "import",
+    "react"
+  ],
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "rules": {
+    "space-infix-ops": 0,
+    "no-duplicate-imports": 0,
+    "import/prefer-default-export": 0,
+    "import/no-duplicates": 1,
+    "import/no-named-as-default": 0,
+    "flowtype/no-types-missing-file-annotation": 0,
+    "flowtype/define-flow-type": 1,
+    "flowtype/space-before-type-colon": [
+      1,
+      "never"
+    ],
+    "flowtype/use-flow-type": 1,
+    "flowtype/valid-syntax": 1,
+    "flowtype/type-id-match": [
+      2,
+      "^([A-Z]+[a-z0-9A-Z]*)$"
+    ]
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  }
+}
