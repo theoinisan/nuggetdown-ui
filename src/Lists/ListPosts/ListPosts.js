@@ -44,7 +44,6 @@ class ListPosts extends React.Component<Props, State> {
   };
 
   _play = (id: string) => () => {
-    console.log(id);
     this.setState(() => ({
       postPlaying: id
     }));

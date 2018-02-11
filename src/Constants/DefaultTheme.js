@@ -4,10 +4,13 @@ const DefaultTheme = {
   fonts: {
     primary: "Raleway"
   },
+  radius: {
+    sm: "4px"
+  },
   colors: {
     primary: "#009fe3",
     text: "#464646",
-    background: "#e9ebee",
+    background: "#efefef",
     backgroundSecondary: "#f7f7f7",
     cardsBackground: "#ffffff"
   }

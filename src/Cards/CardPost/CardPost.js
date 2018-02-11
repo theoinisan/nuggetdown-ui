@@ -5,6 +5,7 @@ import moment from "moment";
 import FlexContainer from "../../Layout/FlexContainer/FlexContainer";
 import Avatar from "../../Utils/Avatar/Avatar";
 import PlayerAll from "../../Players/PlayerAll/PlayerAll";
+import Box from "../../Layout/Box";
 import {
   StyledWrapper,
   StyledContainer,
@@ -43,7 +44,7 @@ type Props = {
 };
 
 const CardPost = (props: Props) => (
-  <StyledWrapper style={props.style}>
+  <Box style={props.style}>
     <StyledHeader>
       <FlexContainer alignItems="center" justifyContent="space-between">
         <div>
@@ -73,7 +74,7 @@ const CardPost = (props: Props) => (
     <StyledContainer>
       <StyledDescription>{props.post.description}</StyledDescription>
     </StyledContainer>
-  </StyledWrapper>
+  </Box>
 );
 
 CardPost.defaultProps = {
